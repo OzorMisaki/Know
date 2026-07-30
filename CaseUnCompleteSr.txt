@@ -1,0 +1,33 @@
+Nama case:
+Complete SR
+
+Modul/menu SIMS:
+Service Request (SR)
+
+Gejala atau pertanyaan user:
+User tidak complete SR.
+
+Pesan error jika ada:
+Selected SR Already Close, Un/Complete Abort
+
+Penyebab yang diketahui:
+Document SR sudah close, tapi di Uncomplete oleh user(yang harusnya tidak di perbolehkan).
+
+Langkah solusi:
+1. Cek nomor SR.
+2. Apakah SR sudah dalam status Close?
+3. Apakah SR dalam status UnComplete?
+4. Jika status sudah Close, maka sudah tidak dapat di UnComplete.
+5. Abaikan point ini bila solusi sudah terjawab di point 4, bila belum terjawab maka :
+   Jika status sudah close dan UnComplete, lalu User melakukan complete kembali dan terjadi error.
+   Maka solusi nya untuk info ke Creator SR untuk UnClose document SR terlebih dahulu. 
+   Agar user pembelian dapat melakukan Complete SR kembali.
+
+Data yang perlu dicek:
+Status SR Close/Complete/UnComplete
+
+Kapan harus eskalasi:
+Jika sudah melakukan point 4/5 di solusi, dan masih belum bisa, maka dapat menghubungi IT terkait.
+
+Catatan tambahan:
+-
