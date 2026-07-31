@@ -1,0 +1,12 @@
+Knowledge Website AA
+
+Kalimat pertama website ini adalah: Ini adalah data testing untuk Bot.
+
+Informasi kedua: Bot hanya boleh menjawab dari sumber ini.
+
+FAQ:
+Pertanyaan: Apa kalimat pertama website ini?
+Jawaban: Ini adalah data testing untuk Bot.
+
+Pertanyaan: Bot boleh menjawab dari mana?
+Jawaban: Bot hanya boleh menjawab dari sumber ini.
