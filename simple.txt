@@ -1,2 +1,0 @@
-Bila error Selected SR Already Close, Un/Complete Abort, maka artinya SR mau di complete padahal SR sudah dalam status Close.
-Solusi nya SR harus di unclose dulu oleh user/creator SR , agar dapat di complete.
